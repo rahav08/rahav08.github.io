@@ -1,0 +1,119 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+    grid-template-rows: 1fr 1fr 1fr 80px;
+    grid-gap: 1em;
+    padding: 1em;
+}
+
+.bioBox {
+    border: 1px rgb(0, 0, 0) solid;
+    padding: 1em;
+    box-shadow: 3px 3px #888888;
+}
+
+body {background-color: rgb(202, 202, 202);}
+
+#myPhoto {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    text-align: center;
+}
+
+#bioAbout {
+    text-align: center;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+
+#bioSkills { 
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+#bioVideo {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.description{
+    display: inline-block;
+}
+
+iframe {
+    width: 100%;
+}
+
+#myFooter {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+    background-color: rgb(248,249,250);
+    text-align: center;
+    padding: 1em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(89, 90, 89);
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(105, 105, 105);
+}
+
+li {
+    text-align:left;
+}
+
+p {
+    text-align: left;
+    margin: 2px;
+}
+
+#headshot {
+    height:auto;
+    max-width: 100%;
+}
+
+.projectsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    padding: 1em;
+}
+
+#projectsFooter {
+    grid-row: 2 / 3;
+    grid-column: 1 /4;
+    background-color: rgb(248,249,250);
+    text-align: center;
+    padding: 1em;
+}
+
+.bioBoxProject {
+    border: 1px blue solid;
+    padding: 1em;
+    box-shadow: 3px 3px #888888;
+    display: grid;
+    grid-template-rows: auto auto 150px;
+}
+
+.imgContainer {
+    text-align: center;
+}
+
+.projectsImg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.myLinks {
+    text-shadow: 0 0 0.10em #1da9cc;
+}
+
+a:hover {
+    background-color: rgb(114,187,83);
+}
