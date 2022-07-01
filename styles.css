@@ -114,6 +114,7 @@ p {
 
 .myLinks {
   text-shadow: 0 0 0.1em #1da9cc;
+  color: rgb(255, 47, 68);
 }
 
 a:hover {
